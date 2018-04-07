@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BHash
+Comment=BHash P2P Cryptocurrency
+Comment[fr]=BHash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BHash, eşten eşe kriptografik sanal para birimi
+Exec=bhash-qt %u
+Terminal=false
+Type=Application
+Icon=bhash128
+MimeType=x-scheme-handler/bhash;
+Categories=Office;Finance;

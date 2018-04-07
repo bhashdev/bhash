@@ -1,0 +1,26 @@
+[Unit]
+Description=BHash's distributed currency daemon
+After=network.target
+
+[Service]
+User=bhash
+Group=bhash
+
+Type=forking
+PIDFile=/var/lib/bhashd/bhashd.pid
+
+ExecStart=/usr/bin/bhashd -daemon -pid=/var/lib/bhashd/bhashd.pid \
+          -conf=/etc/bhash/bhash.conf -datadir=/var/lib/bhashd
+
+ExecStop=-/usr/bin/bhash-cli -conf=/etc/bhash/bhash.conf \
+         -datadir=/var/lib/bhashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bhash_bg.qm</file>
+        <file alias="ca">locale/bhash_ca.qm</file>
+        <file alias="cs">locale/bhash_cs.qm</file>
+        <file alias="da">locale/bhash_da.qm</file>
+        <file alias="de">locale/bhash_de.qm</file>
+        <file alias="en">locale/bhash_en.qm</file>
+        <file alias="en_US">locale/bhash_en_US.qm</file>
+        <file alias="es">locale/bhash_es.qm</file>
+        <file alias="fi">locale/bhash_fi.qm</file>
+        <file alias="fr_FR">locale/bhash_fr_FR.qm</file>
+        <file alias="it">locale/bhash_it.qm</file>
+        <file alias="ja">locale/bhash_ja.qm</file>
+        <file alias="ko_KR">locale/bhash_ko_KR.qm</file>
+        <file alias="nl">locale/bhash_nl.qm</file>
+        <file alias="pl">locale/bhash_pl.qm</file>
+        <file alias="pt">locale/bhash_pt.qm</file>
+        <file alias="pt_BR">locale/bhash_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bhash_ro_RO.qm</file>
+        <file alias="ru">locale/bhash_ru.qm</file>
+        <file alias="sk">locale/bhash_sk.qm</file>
+        <file alias="sv">locale/bhash_sv.qm</file>
+        <file alias="uk">locale/bhash_uk.qm</file>
+        <file alias="zh_CN">locale/bhash_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bhash_zh_TW.qm</file>
+    </qresource>
+</RCC>

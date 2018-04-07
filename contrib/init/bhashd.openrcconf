@@ -1,0 +1,26 @@
+# /etc/conf.d/bhashd: config file for /etc/init.d/bhashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bhash/bhash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bhashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bhashd.pid"
+
+# Where to write bhashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bhashd"
+
+# User and group to own bhashd process
+#BITCOIND_USER="bhash"
+#BITCOIND_GROUP="bhash"
+
+# Path to bhashd executable
+#BITCOIND_BIN="/usr/bin/bhashd"
+
+# Nice value to run bhashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
