@@ -17,7 +17,7 @@ script:
 before_deploy:
 - git config --local user.name "bhashdev"
 - git config --local user.email "bhashdev@gmail.com"
-- git tag "bulwark-1.2.3.0-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+- git tag "bhash-2.0.4.2-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 - echo `pwd`
 deploy:
   provider: releases
