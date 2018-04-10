@@ -23,7 +23,7 @@ deploy:
   provider: releases
   api_key:
     secure: XZWqyXssza6XzgZ6u/O1v9z1ZRrfHXxB5FQU/iYybCLORN3UFJ+WYhA/wmtfhMPEcNigz0vqr1v88h/7OCpff1lTswylKKeOFh2eRwf+U+6ip1GmJTyxf+fduPGD3KWx/RCCRqJsK3unT7iBZCTnWZ76/ZGVsM0ZRIW4qQDE+XxDcz/YCfRvE3W0m2xUeADIQIQDejJh/9P2zx8DyZ2l+l1KkdUpdzbFYlnm7Ki5lA59cT8gfBxxF/ncvp7LBlGiIIkZJ01Dl2dtP+wssSsWh8Zud2B7/oK34O3f8i40+JKunAapC7M2RVDrlauxns2iysKxEvyXZ8OQ8ZuMsvl5Ui/jlowR/crLgxkDnohlt1cIbfnEQro+OrS1i2iPgSWKMuYkzSDK5CqkiL8fTDDM6kbuQFCvjblSlRamr7v9pPsDjoZYsPhwa3QYvDPOs6kdryaBrUK6XVLPQZq5UZwbGUHGCcpchj4CwVTqjbcXXEhp2vjhRRPU+mv5FjS+TAAdTq1UVIO9P6GKHuH3Iq5+PO+J0I0ex8jFb2+4uu7kvlEo1AxENrunPlbraVdtcwD80Y9gmEQO2iTJTsdgb1pNlq4az9GzfPfiYAW2oNqkFGUnsJi2ZGd2iwNSF1J0fWcXoHleSh8hFZQmJQt7zlLvN0G6meaIIK4U8u+gSJ/3jwo=
-  file: bhash-2.0.4.2-$HOST.tar.gz
+  file: BHash-QT.dmg
   on:
     repo: bhashdev/bhash
     branch: master
