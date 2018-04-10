@@ -7,7 +7,19 @@ env:
   - LDFLAGS=-L/usr/local/opt/openssl/lib
   - CPPFLAGS=-I/usr/local/opt/openssl/include
 before_install:
-- brew install automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf python qt libevent qrencode librsvg
+- brew install automake 
+- brew install berkeley-db4 
+- brew install libtool 
+- brew install boost 
+- brew install miniupnpc 
+- brew install openssl 
+- brew install pkg-config 
+- brew install protobuf 
+- brew install python 
+- brew install qt 
+- brew install libevent 
+- brew install qrencode
+- brew install librsvg
 script:
 - "./autogen.sh"
 - "./configure --with-gui=qt5"
@@ -15,7 +27,6 @@ script:
 before_deploy:
 - git config --local user.name "bhashdev"
 - git config --local user.email "bhashdev@gmail.com"
-- git tag "bhash-2.0.4.2-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 - echo `pwd`
 deploy:
   provider: releases
