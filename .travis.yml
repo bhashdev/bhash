@@ -7,6 +7,7 @@ env:
   - LDFLAGS=-L/usr/local/opt/openssl/lib
   - CPPFLAGS=-I/usr/local/opt/openssl/include
 before_install:
+- brew install autoconf 
 - brew install automake 
 - brew install berkeley-db4 
 - brew install libtool 
@@ -15,8 +16,8 @@ before_install:
 - brew install openssl 
 - brew install pkg-config 
 - brew install protobuf 
-- brew install python 
 - brew install qt 
+- brew install zmq
 - brew install libevent 
 - brew install qrencode
 - brew install librsvg
