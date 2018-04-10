@@ -8,13 +8,11 @@ env:
   - CPPFLAGS=-I/usr/local/opt/openssl/include
 before_install:
 - brew update
-- brew install autoconf automake berkeley-db@4 boost@1.57 git libevent libtool miniupnpc openssl pkg-config protobuf qt zeromq librsvg
-#- brew link boost@1.57 --force
+- brew bundle
 script:
 - "./autogen.sh"
 - "./configure"
 - make deploy
-
 before_deploy:
 - git config --local user.name "bhashdev"
 - git config --local user.email "bhashdev@gmail.com"
