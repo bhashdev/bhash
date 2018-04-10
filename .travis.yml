@@ -20,7 +20,7 @@ deploy:
   provider: releases
   api_key:
     secure: lvdyUkRucf7gbok+yOKaC8Fv2nyKuFFLuyOcjW6i0f/yqOt8Jn6b917VNmRstOrHYaUAM/TYHEfARrmzValR5gYPjyE3J2XZIDkAV80N5lxg1fpRlZ/3d1AvyG17Q+tOkySmWBNbrXdt2JFVCiohjqk6mMhD46lXItMPPmrID8sS0Pf3ChiFBraGFzIDizkhQAMw7FVsTw1z0v/zN7aM04Cjz2tk3iUq4DgCumub02R4tCSxcycl1T86nLPNPkBAPC3LWmmhGm3Ayv6nX6AKnKmInzDHeDfwV0YGy8Nkb42AdsvY3Iospi01AWUxAvhlEXEyyvch1X7NzCtVts8s9T5DUJP9LFa2OMYComt5ERydWux2Kbsvh3ymmtNdKotGJ7Ykn6BEMi53jwxXdIm9Li9MKac4uWujlf7s3hkHC0DQAZACk0GcuPvlRqTw+a7uH8ckAixXpwhlmymt23JsHqT8XbUgAMPGwMOst+eeHyYaL+8jSFC8nV0vsHsazDg8N2Lxgi4lb0XvnccLjb+Gc+Q64JyRGtVXy5M/7LFEtHWXDtADfYO4ZViIJwI82VFNvvbe+n0PnToxUsfnvQd3tgCf0v64pbPjaUS+iAGIQPXxWVo5NRGbzbharzmm23gzAoBeHi1KcPRSd/LswM4iy5KM/eBG+srvJxsWwHnPRuw=
-  file: BHash-QT.dmg
+  file: BHash-Qt.dmg
   on:
     repo: bhashdev/bhash
     branch: master
